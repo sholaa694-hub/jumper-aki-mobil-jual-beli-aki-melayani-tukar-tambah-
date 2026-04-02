@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jasa Jumper Aki Mobil Semarang</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #020617;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #e11d48, #f59e0b);
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background: #22c55e;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 40px 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #f59e0b;
+}
+
+.testimoni {
+    background: #111827;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+/* WA floating */
+.wa-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.wa-float img {
+    width: 30px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png">
+        <h2>Jumper Aki Semarang</h2>
+    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#testi">Testimoni</a>
+        <a href="#map">Lokasi</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Jasa Jumper Aki Mobil & Jual Beli Aki</h1>
+    <p>Melayani Tukar Tambah • 24 Jam • Area Semarang</p>
+    <a class="btn" href="https://wa.me/6281882895847">Chat WhatsApp</a>
+</section>
+
+<div class="container">
+
+    <div id="layanan" class="card">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Jumper aki mobil mogok</li>
+            <li>Jual beli aki baru & bekas</li>
+            <li>Tukar tambah aki</li>
+            <li>Layanan panggilan 24 jam</li>
+            <li>Area Semarang & sekitarnya</li>
+        </ul>
+    </div>
+
+    <div id="testi" class="card">
+        <h2>Testimoni</h2>
+        <div class="testimoni">⭐ "Respon cepat, sangat membantu!"</div>
+        <div class="testimoni">⭐ "Harga terjangkau & pelayanan ramah"</div>
+        <div class="testimoni">⭐ "Rekomended buat yang aki soak di jalan"</div>
+    </div>
+
+    <div id="map" class="card">
+        <h2>Lokasi Kami</h2>
+        <iframe src="https://maps.google.com/maps?q=Pedurungan%20Semarang&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+        <p>Jl. Purwomukti Barat 4, RT 07/RW 01, Pedurungan Lor, Semarang</p>
+        <p>📞 0818-8289-5847</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Jasa Jumper Aki Semarang - Siap 24 Jam</p>
+</footer>
+
+<!-- Tombol WA -->
+<a class="wa-float" href="https://wa.me/6281882895847">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+</a>
+
+</body>
+</html>
