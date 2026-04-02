@@ -1,1 +1,0 @@
-# jumper-aki-mobil-jual-beli-aki-melayani-tukar-tambah-
